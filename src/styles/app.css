@@ -1,0 +1,18 @@
+.Wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: var(--Very-Pale-Blue);
+  background-image: url(./images/bg-pattern.svg);
+  background-repeat:no-repeat;
+  background-size: contain;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+  .Wrapper {
+    background-size: auto;
+  }
+}
